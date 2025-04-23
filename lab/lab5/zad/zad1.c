@@ -6,8 +6,8 @@ int main(){
     int i = 0;
 
     printf("Enter string: ");
-    scanf("%s", &str);
-
+    scanf("%s", str);
+    
     for(char *ptr = str; *ptr != '\0'; ptr++){
         count++;
     }
